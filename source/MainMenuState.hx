@@ -36,8 +36,8 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		'options'
-		'credits',
+		'options',
+		'credits'
 	];
 
 	var magenta:FlxSprite;
