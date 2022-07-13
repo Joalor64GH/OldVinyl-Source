@@ -563,7 +563,7 @@ class TitleState extends MusicBeatState
 	{
 		super.beatHit();
 
-		/*if(logoBl != null) 
+		if(logoBl != null) 
 			logoBl.animation.play('bump', true);
 
 		if(gfDance != null) {
@@ -640,7 +640,7 @@ class TitleState extends MusicBeatState
 				case 16:
 					skipIntro();
 			}
-		*/
+		}
 	}
 
 	var skippedIntro:Bool = false;
