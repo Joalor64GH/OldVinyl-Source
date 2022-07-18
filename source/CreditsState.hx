@@ -87,6 +87,7 @@ class CreditsState extends MusicBeatState
 			[''],
 			['Artists'],
 			['Tennex',				'none',			'Animated the Characters',					'https://twitter.com/yoshubs',			'279ADC'],
+			['Saterzhino',			'none',			'Drew the Icons',							'https://twitter.com/bbsub3',			'389A58'],
 			[''],
 			['Psych Engine Team'],
 			['ShadowMario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
