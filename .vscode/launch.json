@@ -6,21 +6,21 @@
 		"type": "hxcpp",
 		"preLaunchTask": "Build Windows",
 		"request": "launch",
-		"program": "${workspaceFolder}/export/release/windows/bin/OldVinyl.exe"
+		"program": "${workspaceFolder}/export/release/windows/bin/OldVinyl_WIN.exe"
 	  },
 	  {
 		"name": "Linux",
 		"type": "hxcpp",
 		"preLaunchTask": "Build Linux",
 		"request": "launch",
-		"program": "${workspaceFolder}/export/release/linux/bin/OldVinyl"
+		"program": "${workspaceFolder}/export/release/linux/bin/OldVinyl_APP"
 	  },
 	  {
 		"name": "Mac",
 		"type": "hxcpp",
 		"preLaunchTask": "Build Mac",
 		"request": "launch",
-		"program": "${workspaceFolder}/export/release/macos/bin/OldVinyl"
+		"program": "${workspaceFolder}/export/release/macos/bin/OldVinyl_MAC"
 	  },
 	],
   }

@@ -2,7 +2,10 @@
 <project xmlns="http://lime.software/project/1.0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://lime.software/project/1.0.3 http://lime.software/xsd/project-1.0.3.xsd">
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Old Vinyl Collection" file="OldVinyl" packageName="com.vinylteam.collection" package="com.vinylteam.collection" main="Main" version="0.2.8" company="VinylTeam" />
+	<app title="Friday Night Funkin': Old Vinyl Collection" packageName="com.vinylteam.collection" package="com.vinylteam.collection" main="Main" version="0.2.8" company="VinylTeam" />
+    <app file="OldVinyl_WIN" if="windows" />
+	<app file="OldVinyl_APP" if="linux" />
+	<app file="OldVinyl_MAC" if="mac" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -105,7 +108,6 @@
 	<haxelib name="flixel-ui" />
 	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
 	<haxelib name="faxe" if='switch'/>
-	<!--<haxelib name="polymod"/> -->
 	<haxelib name="discord_rpc" if="desktop"/>
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
 
