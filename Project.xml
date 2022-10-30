@@ -3,7 +3,7 @@
 	<!-- _________________________ Application Settings _________________________ -->
 
 	<app title="Friday Night Funkin': Old Vinyl Collection" packageName="com.vinylteam.collection" package="com.vinylteam.collection" main="Main" version="0.2.8" company="VinylTeam" />
-    <app file="OldVinyl_WIN" if="windows" />
+        <app file="OldVinyl_WIN" if="windows" />
 	<app file="OldVinyl_APP" if="linux" />
 	<app file="OldVinyl_MAC" if="mac" />
 
